@@ -1,0 +1,60 @@
+@media only screen and (max-width: 1300px) {
+    .slider {
+        height: 640px;
+    }
+    .slider__container-item {
+        width: 276px;
+        position: unset;
+    }
+    .slider__suptitle {
+        font: normal normal bold 20px/24px 'Arvo';
+        width: 230px;
+        height: 48px;
+        margin-bottom: 8px;
+    }
+    .slider__item:nth-child(1) {
+        background-size: 185% auto;
+        background: transparent url('../../img/slider/slider1.png') 60% 17% no-repeat padding-box;
+    }
+    .slider__item:nth-child(2) {
+        background-size: 185% auto;
+        background: transparent url('../../img/slider/slider2.png') 60% 17% no-repeat padding-box;
+    }
+    .slider__item:nth-child(3) {
+        background-size: 185% auto;
+        background: transparent url('../../img/slider/slider3.png') 60% 17% no-repeat padding-box;
+    }
+    .slider__habat {
+        width: 222px;
+        height: 44px;
+        background-size: contain;
+        margin-bottom: 18px;
+    }
+    .slider__description {
+        font: normal normal normal 15px/20px 'Prompt';
+        width: 235px;
+        height: 62px;
+        margin-bottom: 77px;
+    }
+    .button-more {
+        width: 254px;
+        height: 60px;
+    }
+    .button-more__title {
+        width: 244px;
+        height: 60px;
+        font: normal normal normal 15px/20px 'Prompt';
+        padding: 19px 35px 15px 0;
+    }
+    .button-more__arrow {
+        width: 55px;
+        height: 60px;
+    }
+    .slider__nav {
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        top: 547px;
+    }
+};

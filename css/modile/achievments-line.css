@@ -1,0 +1,31 @@
+@media only screen and (max-width: 1300px) {
+    .achievements-line__container {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-flow: column nowrap;
+                flex-flow: column nowrap;
+        width: 297px;
+        min-width: unset;
+        margin: auto;
+    }
+    .achievements__point_text {
+        width: 118px;
+        height: 41px;
+    }
+    .achievements__description {
+        min-width: 164px;
+        height: 46px;
+    }
+    .achievements-line {
+        padding: 30px 31px 39px 32px;
+    }
+    .achievements-line__item {
+        margin: 0;
+    }
+    .achievements-line__item:nth-child(2) {
+        width: 275px;
+        height: 52px;
+        margin: 20px 0 27px 0 !important;
+    }
+    
+}
