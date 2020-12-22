@@ -21,6 +21,9 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    padding-left: 20px;
+    padding-right: 40px;
+    justify-content: space-between;
 }
 .footer__services-menu {
     display: -webkit-box;
@@ -144,6 +147,8 @@
 }
 .footer__info {
     margin-top: 100px;
+    padding-left: 20px;
+    padding-right: 40px;
 }
 .footer__info-container {
     width: 1300px;

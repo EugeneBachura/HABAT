@@ -1,6 +1,6 @@
 @media only screen and (max-width: 1300px) {
     .footer__container {
-        width: 360px;
+        width: 350px;
         padding: 57px 0 20px 0;
     }
     .footer__logo {
@@ -28,6 +28,7 @@
     }
     .footer__info {
         margin-top: 52px;
+        padding-right: 20px;
     }
     .footer__info-container {
         width: 320px;
@@ -49,6 +50,12 @@
                 flex-flow: column nowrap;
         height: 41px;
         margin-bottom: 32px;
+        max-width: 310px;
+    }
+    .footer__convention > a {
+        max-width: 310px;
+        display: block;
+        margin-right: 0px;
     }
     .footer__creator {
         -webkit-box-ordinal-group: 3;

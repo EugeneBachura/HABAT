@@ -3,8 +3,10 @@
         -webkit-box-pack: start;
             -ms-flex-pack: start;
                 justify-content: flex-start;
-        width: 360px;
+        width: 310px;
         height: 54px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
     .header__logo-link {
         -webkit-box-ordinal-group: 3;
@@ -92,8 +94,7 @@
             -ms-flex-order: 3;
                 order: 3;
         margin-top: 20px;
-        position: absolute;
-        right: 32px;
+        margin-left: 100px;
     }
     .header__mobile-menu-line {
         background: #003E84;
@@ -111,7 +112,8 @@
     .header__mobile-menu-bg {
         background: #FFFFFF;
         width: 100vw;
-        height: 100vh;
+        min-width: 350px;
+        height: 100%;
         position: fixed;
         left: 0;
         top: 0;

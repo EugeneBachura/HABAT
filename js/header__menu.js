@@ -53,9 +53,9 @@ $(".header__mobile-menu-btn").click(function() {
         $(".header__mobile-menu-btn .header__mobile-menu-line:first-child").css("transform","rotate(45deg)");
         $(".header__mobile-menu-btn .header__mobile-menu-line:nth-child(2)").css("transform","rotate(-45deg)");
         $(".header__mobile-menu-btn .header__mobile-menu-line:first-child").css("position","absolute");
-        $(".header__mobile-menu-btn .header__mobile-menu-line:first-child").css("top","5.5px");
+        $(".header__mobile-menu-btn .header__mobile-menu-line:first-child").css("top","25.5px");
         $(".header__mobile-menu-btn .header__mobile-menu-line:nth-child(2)").css("position","absolute");
-        $(".header__mobile-menu-btn .header__mobile-menu-line:nth-child(2)").css("top","6.5px");
+        $(".header__mobile-menu-btn .header__mobile-menu-line:nth-child(2)").css("top","26.5px");
         $(".header__mobile-menu-btn .header__mobile-menu-line:nth-child(3)").css("opacity","0");
         $(".header__menu").css("opacity","1");
         $(".header__menu").css("display","flex");
