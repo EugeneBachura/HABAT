@@ -18,6 +18,8 @@
 .slider__item {
     height: 960px;
     width: 100vw;
+    -webkit-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
     transition: 0.3s ease-in-out;
     position: relative;
     display: block;
@@ -147,7 +149,10 @@
     -webkit-transform: rotate(45deg);
         -ms-transform: rotate(45deg);
             transform: rotate(45deg);
-  }
+}
+.slider__carousel > div:nth-child(1)::before {
+}
+
 .slider__right-arrow {
     background: transparent url('../img/arrow.svg') 0% 0% no-repeat padding-box;
     width: 23px;
@@ -156,3 +161,9 @@
         -ms-transform: rotate(180deg);
             transform: rotate(180deg);
 }
+
+.slider__carousel-item, .slider__carousel-item_active, .slider__left-arrow, .slider__right-arrow {
+    cursor: pointer;
+}
+
+
